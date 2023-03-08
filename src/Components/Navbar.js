@@ -34,9 +34,9 @@ const Navbar = () => {
         <h1 className="logo">Logo Here</h1>
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
